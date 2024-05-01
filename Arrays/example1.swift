@@ -12,7 +12,12 @@ func helloArray(){
     for num in arr1{
         print(num)
     }
+    var statesVisited: [String] = ["USA", "CA", "TX", "US"]
+    statesVisited = ["AB","Japan"]
 
+    print("My array capacity is \(statesVisited.count)")
+    
+    print("I will go to \(statesVisited.last!)")
 
 }
 
