@@ -15,6 +15,9 @@ class Employee{
     }
 }
 
-var sandyCheeks = Employee(name: "Sandy Cheeks", salary: 10000)
+    var sandyCheeks = Employee(
+        name: "Sandy Cheeks", 
+        salary: 10000
+    )
     print(sandyCheeks.name)
     sandyCheeks.hello()
