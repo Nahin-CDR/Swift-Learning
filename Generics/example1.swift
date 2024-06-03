@@ -30,3 +30,23 @@ print("after swap")
 print(num1) 
 print(num2)
 
+// now swap string values
+
+var str1 = "Hello"
+var str2 = "World"
+
+print("Before SWAP")
+print(str1)
+print(str2)
+
+swapValue(a:&str1, b:&str2)
+
+
+print("After SWAP")
+
+print(str1) 
+print(str2)
+
+
+
+
